@@ -7,10 +7,10 @@ import io.swagger.v3.oas.models.info.License;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.Collections;
-
 /**
- * DOC WEB: http://localhost:8081/doc/swagger-ui/index.html
+ * DOC WEB: <a href="http://localhost:8081/doc/swagger-ui/index.html">
+ *     Link de documentación
+ *     </a>
  */
 @Configuration
 public class SwaggerConfig {

@@ -2,14 +2,12 @@ package com.example.ob_rest_datajpa;
 
 import com.example.ob_rest_datajpa.entities.Book;
 import com.example.ob_rest_datajpa.repositories.BookRepository;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 import java.time.LocalDate;
 import java.util.HashSet;
-import java.util.Optional;
 
 @SpringBootApplication
 public class ObRestDatajpaApplication {
