@@ -1,0 +1,142 @@
+[
+  {
+    "v": 6,
+    "name": "Spring Rest Prueba",
+    "folders": [],
+    "requests": [
+      {
+        "v": "11",
+        "name": "all-books",
+        "method": "GET",
+        "endpoint": "http://localhost:8081/api/allBooks",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": null,
+          "body": null
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "11",
+        "name": "find-book",
+        "method": "GET",
+        "endpoint": "http://localhost:8081/api/book/2",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": null,
+          "body": null
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "11",
+        "name": "add-book",
+        "method": "POST",
+        "endpoint": "http://localhost:8081/api/addBook",
+        "params": [],
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "",
+            "active": true,
+            "description": ""
+          }
+        ],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": "application/json",
+          "body": "{\n  \"title\": \"3\",\n  \"author\": \"33333\",\n  \"edition\": \"333333\",\n  \"editionDate\": \"2025-01-28\",\n  \"price\": 333.0,\n  \"online\": true\n}"
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "11",
+        "name": "edit-book",
+        "method": "PUT",
+        "endpoint": "http://localhost:8081/api/editBook",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": "application/json",
+          "body": "{\n  \"id\": 1,\n  \"title\": \"editado1\",\n  \"author\": \"editado1\",\n  \"edition\": \"editado1\",\n  \"editionDate\": \"2025-01-07\",\n  \"price\": 44.0,\n  \"online\": true\n}"
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "11",
+        "name": "delete-book",
+        "method": "DELETE",
+        "endpoint": "http://localhost:8081/api/deleteBook/2",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": "application/json",
+          "body": "{\n  \"id\": 100,\n  \"title\": \"editado2\",\n  \"author\": \"editado2\",\n  \"edition\": \"editado2\",\n  \"editionDate\": \"2025-01-07\",\n  \"price\": 44.0,\n  \"online\": true\n}"
+        },
+        "requestVariables": [],
+        "responses": {}
+      },
+      {
+        "v": "11",
+        "name": "delete-all-books",
+        "method": "DELETE",
+        "endpoint": "http://localhost:8081/api/deleteAllBooks",
+        "params": [],
+        "headers": [],
+        "preRequestScript": "",
+        "testScript": "",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "contentType": null,
+          "body": null
+        },
+        "requestVariables": [],
+        "responses": {}
+      }
+    ],
+    "auth": {
+      "authType": "none",
+      "authActive": true
+    },
+    "headers": [],
+    "_ref_id": "coll_m7nr8wp3_eae33868-797d-4e17-b16d-9142f7e543ff"
+  }
+]
