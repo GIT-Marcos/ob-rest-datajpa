@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.ob_rest_datajpa.controllers.BookControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.889 s -- in com.example.ob_rest_datajpa.controllers.BookControllerTest
