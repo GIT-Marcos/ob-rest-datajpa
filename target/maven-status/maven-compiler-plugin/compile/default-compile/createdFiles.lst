@@ -1,5 +1,0 @@
-com\example\ob_rest_datajpa\repositories\BookRepository.class
-com\example\ob_rest_datajpa\config\SwaggerConfig.class
-com\example\ob_rest_datajpa\controllers\BookController.class
-com\example\ob_rest_datajpa\entities\Book.class
-com\example\ob_rest_datajpa\ObRestDatajpaApplication.class
